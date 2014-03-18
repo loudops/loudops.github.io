@@ -8,14 +8,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : LOUDOPS
+tagline: 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Loud Ops
+  email : 
+  github : loudops
+  twitter : loudops
+  feedburner : loudops
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -98,7 +98,8 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+  #  provider : google 
+    provider : false
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
